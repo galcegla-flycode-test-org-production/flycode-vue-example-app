@@ -12,7 +12,7 @@
             exact
             :to="{ name: 'home' }"
           >
-            Home
+            Home1
           </router-link>
         </li>
         <li class="nav-item">
