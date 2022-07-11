@@ -2,7 +2,12 @@
   <!-- Used when user is also author -->
   <span v-if="canModify">
     <router-link class="btn btn-sm btn-outline-secondary" :to="editArticleLink">
-      <i class="ion-edit"></i> <span>Edit Article1</span>
+      <i class="ion-edit"></i>
+      <span
+        >Edit Article and thing like I don't understand why this has to be-- oh,
+        actually, it makes sense because we want it not to be all in 1 line
+        lmao. Also, what happens ooooh linebreaks cool</span
+      >
     </router-link>
     <span>&nbsp;&nbsp;</span>
     <button class="btn btn-outline-danger btn-sm" @click="deleteArticle">
